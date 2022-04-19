@@ -49,8 +49,6 @@ $ git push -u origin master
 
 ## Our artifacts
 
-| Franklin | Mike |
-| --- | --- |
-| &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; |
-| &nbsp; | &nbsp; | 
+| Franklin | Mike                                                                                                   |
+| -------- | ------------------------------------------------------------------------------------------------------ |
+| &nbsp;   | [`mike-artifacts`](https://github.com/yak-fumblepack/getting-familiar-with-github/tree/mike-artifacts) |
