@@ -18,6 +18,7 @@
     "url": "https://github.com/yak-fumblepack/getting-familiar-with-github/issues"
   },
   "dependencies": {
+    "ejs": "^3.0.2",
     "express": "^4.17.3"
   },
   "homepage": "https://github.com/yak-fumblepack/getting-familiar-with-github#readme",

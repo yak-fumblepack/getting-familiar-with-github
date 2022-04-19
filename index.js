@@ -97,9 +97,16 @@ const data = [
 ];
 
 app.set('port', PORT);
+app.set('views', `${__dirname}/views`);
+app.set('view engine', 'ejs');
+app.engine('html', require('ejs').renderFile);
 
 app.get('/', (req, res) => {
   res.sendStatus(200);
+});
+
+app.get('/about', (req, res) => {
+  res.render('about.html');
 });
 
 app.use('/api', router);
@@ -113,5 +120,7 @@ router.get('/hello', async (req, res) => {
 });
 
 router.get('/all', async (req, res) => res.json(data));
+
+app.listen(PORT, () => console.log(`listening on port ${app.get('port')}`));
 
 module.exports = app;
