@@ -4,9 +4,9 @@
   "description": "Hello World App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "lint": "npm eslint --fix"
+    "lint": "npm eslint --fix",
+    "test": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
   "devDependencies": {
     "eslint": "^8.13.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2"
   }
 }
