@@ -43,10 +43,10 @@ app.use('/api', router);
 
 router.get('/hello', async (req, res) => {
   const language = req.get('lang');
-    
-  let result = data.find(obj => obj.lang === language);
 
+  const result = data.find((obj) => obj.lang === language);
 
+  return res.json(result);
 });
 
 router.get('/all', async (req, res) => res.json(data));

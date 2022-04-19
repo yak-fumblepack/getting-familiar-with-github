@@ -1,0 +1,29 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello World App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "npm eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yak-fumblepack/getting-familiar-with-github.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yak-fumblepack/getting-familiar-with-github/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "homepage": "https://github.com/yak-fumblepack/getting-familiar-with-github#readme",
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
