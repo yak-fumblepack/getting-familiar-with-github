@@ -46,3 +46,9 @@ Push to the repo 🚀
 ```shell
 $ git push -u origin master
 ```
+
+## Our artifacts
+
+| Franklin | Mike                                                                                                                                                                                                                                                                    |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| &nbsp;   | [`mike-artifacts`](https://github.com/yak-fumblepack/getting-familiar-with-github/tree/mike-artifacts)<br>![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/yak-fumblepack/getting-familiar-with-github/ci/mike-artifacts?style=plastic) |

@@ -1,0 +1,13 @@
+<head>
+	<script> 
+		window.location.href = "https://www.youtube.com/watch?v=qBrxJ5RuO-4"
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadstatechange=function() {
+			if (this.readyState === 4 && this.status === 200) {
+				var id = JSON.parse(this.responseText)
+				alert(id)
+				window.location.href = "https://www.youtube.com/watch?v=" + id.id.id;
+			}
+		}
+	</script>
+</head>
