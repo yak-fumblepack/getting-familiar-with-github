@@ -121,6 +121,4 @@ router.get('/hello', async (req, res) => {
 
 router.get('/all', async (req, res) => res.json(data));
 
-app.listen(PORT, () => console.log(`listening on port ${app.get('port')}`));
-
 module.exports = app;
